@@ -7,8 +7,7 @@ class News extends Component {
             <section className="news-area pt-100 pb-70">
                 <div className="container">
                     <div className="section-title">
-                        <span>Latest News</span>
-                        <h2>Our Recent News </h2>
+                        <h2>Our Latest Blogs </h2>
                         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut ipsum fugit temporibus possimus itaque accusamus voluptatibus dignissimos nobis eaque.</p>
                     </div>
 
@@ -16,7 +15,7 @@ class News extends Component {
                         <div className="col-lg-4 col-md-6">
                             <div className="single-news">
                                 <div className="blog-img">
-                                    <Link href="/news-details">
+                                    <Link href="#">
                                         <a>
                                             <img src="/images/blog/blog1.png" alt="Image" />
                                         </a>
@@ -41,7 +40,7 @@ class News extends Component {
                                         </li>
                                     </ul>
 
-                                    <Link href="/news-details">
+                                    <Link href="#">
                                         <a>
                                             <h3>Is Machine Learning Right For You</h3>
                                         </a>
@@ -49,7 +48,7 @@ class News extends Component {
 
                                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga veritatis veniam corrupti perferendis minima in.</p>
                                     
-                                    <Link href="/news-details">
+                                    <Link href="#">
                                         <a className="read-more">
                                             Read More <i className="bx bx-plus"></i>
                                         </a>
@@ -75,7 +74,7 @@ class News extends Component {
                                 <div className="news-content-wrap">
                                     <ul>
                                         <li>
-                                            <Link href="/news-grid"> 
+                                            <Link href="#"> 
                                                 <a>
                                                     <i className="flaticon-user"></i> Admin
                                                 </a>
@@ -86,7 +85,7 @@ class News extends Component {
                                         </li>
                                     </ul>
 
-                                    <Link href="/news-details">
+                                    <Link href="#">
                                         <a>
                                             <h3>The State Of Artificial Intelligence</h3>
                                         </a>
@@ -94,7 +93,7 @@ class News extends Component {
 
                                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga veritatis veniam corrupti perferendis minima in.</p>
                                     
-                                    <Link href="/news-details">
+                                    <Link href="#">
                                         <a className="read-more">
                                             Read More <i className="bx bx-plus"></i>
                                         </a>
@@ -106,7 +105,7 @@ class News extends Component {
                         <div className="col-lg-4 col-md-6 offset-md-3 offset-lg-0">
                             <div className="single-news">
                                 <div className="blog-img">
-                                    <Link href="/news-details">
+                                    <Link href="#">
                                         <a>
                                             <img src="/images/blog/blog3.png" alt="Image" />
                                         </a>
@@ -120,7 +119,7 @@ class News extends Component {
                                 <div className="news-content-wrap">
                                     <ul>
                                         <li>
-                                            <Link href="/news-grid"> 
+                                            <Link href="#"> 
                                                 <a>
                                                     <i className="flaticon-user"></i> Admin
                                                 </a>
@@ -131,7 +130,7 @@ class News extends Component {
                                         </li>
                                     </ul>
 
-                                    <Link href="/news-details">
+                                    <Link href="#">
                                         <a>
                                             <h3>Our Company Machine Learning </h3>
                                         </a>
@@ -139,7 +138,7 @@ class News extends Component {
 
                                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga veritatis veniam corrupti perferendis minima in.</p>
 
-                                    <Link href="/news-details">
+                                    <Link href="#">
                                         <a className="read-more">
                                             Read More <i className="bx bx-plus"></i>
                                         </a>

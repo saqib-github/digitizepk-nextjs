@@ -42,7 +42,7 @@ class Navbar extends Component {
                         <div className="container">
                             <Link href="/">
                                 <a className="navbar-brand">
-                                    <img src="/images/white-logo.png" alt="logo" />
+                                    <img src="/images/logo.png" alt="logo" />
                                 </a>
                             </Link>
 
@@ -73,8 +73,8 @@ class Navbar extends Component {
                                     </li>
 
                                     <li className="nav-item">
-                                        <Link href="/">
-                                            <a className="nav-link" onClick={e => e.preventDefault()}>
+                                        <Link href="/services">
+                                            <a className="nav-link">
                                                 Services
                                             </a>
                                         </Link>
@@ -83,8 +83,8 @@ class Navbar extends Component {
                                     </li>
 
                                     <li className="nav-item">
-                                        <Link href="/">
-                                            <a className="nav-link" onClick={e => e.preventDefault()}>
+                                        <Link href="/industry">
+                                            <a className="nav-link">
                                                 Industry 
                                             </a>
                                         </Link>
@@ -93,37 +93,37 @@ class Navbar extends Component {
                                     </li>
 
                                     <li className="nav-item">
-                                        <Link href="/">
-                                            <a className="nav-link" onClick={e => e.preventDefault()}>
+                                        <Link href="/community">
+                                            <a className="nav-link">
                                                 Community
                                             </a>
                                         </Link>
 
                                     </li>
 
-                                    <li className="nav-item">
-                                        <Link href="/">
-                                            <a className="nav-link" onClick={e => e.preventDefault()}>
+                                    {/* <li className="nav-item">
+                                        <Link href="/blogs">
+                                            <a className="nav-link">
                                                 Blog 
                                             </a>
                                         </Link>
 
                                         
-                                    </li>
+                                    </li> */}
 
-                                    <li className="nav-item">
-                                        <Link href="/">
-                                            <a className="nav-link" onClick={e => e.preventDefault()}>
+                                    {/* <li className="nav-item">
+                                        <Link href="/case-study">
+                                            <a className="nav-link">
                                                 Case Study 
                                             </a>
                                         </Link>
 
                                      
-                                    </li>
+                                    </li> */}
 
                                     <li className="nav-item">
-                                        <Link href="/">
-                                            <a className="nav-link" onClick={e => e.preventDefault()}>
+                                        <Link href="/apply">
+                                            <a className="nav-link" >
                                                 Apply 
                                             </a>
                                         </Link>

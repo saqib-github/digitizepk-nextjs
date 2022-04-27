@@ -11,10 +11,10 @@ class NewsGrid extends Component {
                 <Navbar />
 
                 <PageBanner 
-                    pageTitle="News Grid" 
+                    pageTitle="Blogs" 
                     homePageUrl="/" 
                     homePageText="Home" 
-                    activePageText="News Grid" 
+                    activePageText="blogs" 
                 /> 
 
                 <NewsGridCard />

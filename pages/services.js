@@ -11,10 +11,10 @@ class Services extends Component {
                 <Navbar />
 
                 <PageBanner 
-                    pageTitle="Services Style One" 
+                    pageTitle="Services" 
                     homePageUrl="/" 
                     homePageText="Home" 
-                    activePageText="Services Style One" 
+                    activePageText="Services" 
                 /> 
 
                 <ServicesStyleOne />

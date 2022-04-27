@@ -1,26 +1,23 @@
 import React, { Component } from 'react';
 import Navbar from '../components/Layouts/Navbar';
 import PageBanner from '../components/Common/PageBanner';
-import ContactInfo from '../components/Contact/ContactInfo';
-import ContactForm from '../components/Contact/ContactForm';
+import Apply from '../components/HomeOne/Apply';
 import Footer from '../components/Layouts/Footer';
 
-class Contact extends Component {
+class Services extends Component {
     render() {
         return (
             <>
                 <Navbar />
 
                 <PageBanner 
-                    pageTitle="Contact" 
+                    pageTitle="Apply" 
                     homePageUrl="/" 
                     homePageText="Home" 
-                    activePageText="Contact" 
+                    activePageText="apply" 
                 /> 
 
-                <ContactInfo />
-
-                <ContactForm />
+                <Apply />
                 
                 <Footer />
             </>
@@ -28,4 +25,4 @@ class Contact extends Component {
     }
 }
 
-export default Contact;
+export default Services;

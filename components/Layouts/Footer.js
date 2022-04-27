@@ -12,10 +12,10 @@ class Footer extends Component {
                             <div className="col-lg-3 col-md-6">
                                 <div className="single-widget">
                                     <a href="/" className="logo">
-                                        <img src="/images/white-logo.png" alt="Image" />
+                                        <img src="/images/logo.png" alt="Image" />
                                     </a>
 
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat molestiae corporis, magni maxime perferendis ducimus totam officiis sit exercitationem sed odio debitis minus cumque dolores dicta.</p>
+                                    <p>DigitizePK, is an exclusive network of the top remote developers, business analyst, web software designers, SEO experts, finance experts and project managers in the world. Top companies hire digitize remote developers for their most important projects.</p>
 
                                     <ul className="social-icon">
                                         <li>
@@ -29,7 +29,7 @@ class Footer extends Component {
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="https://www.linkedin.com/" target="_blank">
+                                            <a href="https://www.linkedin.com/company/digitizepk/" target="_blank">
                                                 <i className="bx bxl-linkedin"></i>
                                             </a>
                                         </li>
@@ -47,7 +47,7 @@ class Footer extends Component {
                                     <h3>Services</h3>
                                     <ul>
                                         <li>
-                                            <Link href="/service-details">
+                                            <Link href="#">
                                                 <a>
                                                     <i className="right-icon bx bx-chevrons-right"></i>
                                                     Big Data
@@ -55,7 +55,7 @@ class Footer extends Component {
                                             </Link>
                                         </li>
                                         <li>
-                                            <Link href="/service-details">
+                                            <Link href="#">
                                                 <a>
                                                     <i className="right-icon bx bx-chevrons-right"></i>
                                                     UI/UX Design
@@ -63,7 +63,7 @@ class Footer extends Component {
                                             </Link>
                                         </li>
                                         <li>
-                                            <Link href="/service-details">
+                                            <Link href="#">
                                                 <a>
                                                     <i className="right-icon bx bx-chevrons-right"></i>
                                                     Desktop Application
@@ -79,7 +79,7 @@ class Footer extends Component {
                                             </Link>
                                         </li>
                                         <li>
-                                            <Link href="/service-details#">
+                                            <Link href="#">
                                                 <a>
                                                     <i className="right-icon bx bx-chevrons-right"></i>
                                                     Product Engineering
@@ -87,7 +87,7 @@ class Footer extends Component {
                                             </Link>
                                         </li>
                                         <li>
-                                            <Link href="/service-details">
+                                            <Link href="#">
                                                 <a>
                                                     <i className="right-icon bx bx-chevrons-right"></i>
                                                     Machine Learning
@@ -104,14 +104,6 @@ class Footer extends Component {
 
                                     <ul>
                                         <li>
-                                            <Link href="/about-1">
-                                                <a>
-                                                    <i className="right-icon bx bx-chevrons-right"></i>
-                                                    About Us
-                                                </a>
-                                            </Link>
-                                        </li>
-                                        <li>
                                             <Link href="/services">
                                                 <a>
                                                     <i className="right-icon bx bx-chevrons-right"></i>
@@ -120,21 +112,21 @@ class Footer extends Component {
                                             </Link>
                                         </li>
                                         <li>
-                                            <Link href="/pricing">
+                                            <Link href="/community">
                                                 <a>
                                                     <i className="right-icon bx bx-chevrons-right"></i>
-                                                    Pricing
+                                                    Community
                                                 </a>
                                             </Link>
                                         </li>
-                                        <li>
-                                            <Link href="/team">
+                                        {/* <li>
+                                            <Link href="/blogs">
                                                 <a>
                                                     <i className="right-icon bx bx-chevrons-right"></i>
-                                                    Team
+                                                    Blog
                                                 </a>
                                             </Link>
-                                        </li>
+                                        </li> */}
                                         <li>
                                             <Link href="/contact">
                                                 <a>
@@ -143,11 +135,19 @@ class Footer extends Component {
                                                 </a>
                                             </Link>
                                         </li>
-                                        <li>
-                                            <Link href="/testimonials">
+                                        {/* <li>
+                                            <Link href="/case-study">
                                                 <a>
                                                     <i className="right-icon bx bx-chevrons-right"></i>
-                                                    Testimonials
+                                                    Case Study
+                                                </a>
+                                            </Link>
+                                        </li> */}
+                                        <li>
+                                            <Link href="/apply">
+                                                <a>
+                                                    <i className="right-icon bx bx-chevrons-right"></i>
+                                                    Apply
                                                 </a>
                                             </Link>
                                         </li>
@@ -163,19 +163,23 @@ class Footer extends Component {
                                         <li className="address">
                                             <i className="flaticon-call"></i>
                                             <span>Phone</span>
-                                            +882-569-756
+                                            +92 304 6970271
+                                        </li>
+                                        <li className="address">
+                                            <i className="flaticon-call"></i>
+                                            <span>Mobile</span>
+                                            +92 305 9158010
                                         </li>
 
                                         <li className="address">
                                             <i className="flaticon-envelope"></i>
                                             <span>Email</span>
-                                            hello@jumpx.com
+                                            info@digitizepk.com
                                         </li>
 
                                         <li className="address">
                                             <i className="flaticon-maps-and-flags"></i>
-                                            <span>Address</span>
-                                            123, Western Road, Melbourne Australia
+                                            We are completely work remotely
                                         </li>
                                     </ul>
                                 </div>
@@ -195,7 +199,7 @@ class Footer extends Component {
                         <div className="row align-items-center">
                             <div className="col-lg-4">
                                 <div className="copy-right">
-                                    <p>Copyright &copy; {currentYear} Jumpx. All Rights Reserved</p>
+                                    <p>Copyright &copy; {currentYear} DigitizePK. All Rights Reserved</p>
                                 </div>
                             </div>
 
@@ -219,7 +223,7 @@ class Footer extends Component {
                             <div className="col-lg-3">
                                 <div className="designed">
                                     <p>
-                                        Designed By <i className='bx bx-heart'></i> <a href="https://envytheme.com/" target="_blank">EnvyTheme</a>
+                                        Designed By <i className='bx bx-heart'></i> <a href="https://digitizepk.com/" target="_blank">DigitizePK</a>
                                     </p>
                                 </div>
                             </div>

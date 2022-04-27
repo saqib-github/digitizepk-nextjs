@@ -42,28 +42,6 @@ const WhyChooseUs = () => {
                     expert integrity, professionalism, and communication.
                   </p>
                 </li>
-
-                <li className="ml">
-                  <span>
-                    02 <i className="flaticon-shield"></i>
-                  </span>
-                  <h3>Technical Support</h3>
-                  <p>
-                    Lorem ipsum dolor sit labore amet, consectetur adipiscing
-                    elit, sed do eiusmod tempor.
-                  </p>
-                </li>
-
-                <li className="ml-25">
-                  <span>
-                    03 <i className="flaticon-support"></i>
-                  </span>
-                  <h3>Live Support</h3>
-                  <p>
-                    Lorem ipsum dolor sit labore amet, consectetur adipiscing
-                    elit, sed do eiusmod tempor.
-                  </p>
-                </li>
               </ul>
             </div>
           </div>
@@ -71,38 +49,14 @@ const WhyChooseUs = () => {
           <div className="col-lg-6">
             <div className="choose-content">
               <ul>
-                <li>
-                  <span>
-                    01 <i className="flaticon-technical-support"></i>
-                  </span>
-                  <h3>Enormous rate of Success</h3>
-                  <p>
-                    Our highly professional selective mechanism generate 98%
-                    hire success rate. We have specific mechanism to critically
-                    analysis applicants according to given requirements from our
-                    clients.
-                  </p>
-                </li>
-                <li>
-                  <span>
-                    01 <i className="flaticon-technical-support"></i>
-                  </span>
-                  <h3>Efficient remote developers</h3>
-                  <p>
-                    We are working as development team so, every single remote
-                    developer in our global network has the highest levels of
-                    expert integrity, professionalism, and communication.
-                  </p>
-                </li>
 
                 <li className="ml">
                   <span>
                     02 <i className="flaticon-shield"></i>
                   </span>
-                  <h3>Technical Support</h3>
+                  <h3>Effective Communication System</h3>
                   <p>
-                    Lorem ipsum dolor sit labore amet, consectetur adipiscing
-                    elit, sed do eiusmod tempor.
+                  Remote developers for quick business assistance has an  efficient communication system. We respond quickly for any clients query.And always willing to provide urgent  technical , finance , and business  assistance simultaneously.
                   </p>
                 </li>
 
@@ -110,10 +64,9 @@ const WhyChooseUs = () => {
                   <span>
                     03 <i className="flaticon-support"></i>
                   </span>
-                  <h3>Live Support</h3>
+                  <h3>In-depth analysis of Business issues</h3>
                   <p>
-                    Lorem ipsum dolor sit labore amet, consectetur adipiscing
-                    elit, sed do eiusmod tempor.
+                  Remote developers for urgent business help , strive to analyse business complexities in-depth,  with the help of highly professional  experts.
                   </p>
                 </li>
               </ul>
