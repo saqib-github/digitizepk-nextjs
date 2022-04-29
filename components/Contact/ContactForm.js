@@ -46,7 +46,7 @@ const ContactForm = () => {
             setContact(INITIAL_STATE);
             alertContent();
         } catch (error) {
-            console.log(error)
+            console.log(error.response)
         }
     };
 

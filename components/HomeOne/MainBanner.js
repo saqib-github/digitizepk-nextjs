@@ -31,7 +31,7 @@ class MainBanner extends Component {
                   </p>
 
                   <div className="banner-btn">
-                    <Link href="/about-1">
+                    <Link href="/hire-top-talent">
                       <a className="default-btn">Hire Top Talent</a>
                     </Link>
 
