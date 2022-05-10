@@ -6,6 +6,7 @@ export default async (req, res) => {
       "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"
     );
     // console.log(req.body)
+    // 123
 
     const {email, service, type, bModel, issue1, issue2, issue3, nTeam, cDetail } = req.body;
     console.log(req.body, "req body")
