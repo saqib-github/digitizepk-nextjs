@@ -1,25 +1,18 @@
-import nodemailer from 'nodemailer';
-import sgTransport from 'nodemailer-sendgrid-transport';
 
-let mailTransporter = nodemailer.createTransport({
-    service: 'gmail',
-    auth: {
-        user: 'saqib.browser@gmail.com',
-        pass: 'saqib786'
-    }
-});
-
-// const mailer = nodemailer.createTransport(sgTransport(transporter));
 
 export default async (req, res) => {
+    const sgMail = require("@sendgrid/mail");
+    sgMail.setApiKey(
+      "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"
+    );
     // console.log(req.body)
 
     const {email, service, type, bModel, issue1, issue2, issue3, nTeam, cDetail } = req.body;
     console.log(req.body, "req body")
     const mailDetails = {
         // Update your email here
-        to: 'saqib.browser@gmail.com',
-        from: `${email}`,
+        to: "stickableshop@gmail.com", // Change to your recipient
+        from: "info@digitizepk.com",
         subject: 'Hi there',
         text: cDetail,
         html: `
@@ -34,18 +27,14 @@ export default async (req, res) => {
             <b>Email:</b> ${email} 
         ` 
     };
-    try {
-        mailTransporter.sendMail(mailDetails, function(err, data) {
-            if(err) {
-                console.log('Error Occurs');
-            } else {
-                console.log('Email sent successfully');
-            }
-        });
-        // console.log(response)
-        res.status(200).send("Email send successfully")
-    } catch (error) {
-        console.log(error);
-        res.status(500).send("Error proccessing charge");
-    }
+    sgMail
+    .send(mailDetails)
+    .then(() => {
+      console.log("Email sent");
+      res.status(200).send("Email send successfully");
+    })
+    .catch((error) => {
+      console.error(error);
+      res.status(500).send("Error proccessing charge");
+    });
 }
