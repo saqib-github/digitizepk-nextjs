@@ -101,15 +101,15 @@ class Navbar extends Component {
 
                                     </li>
 
-                                    {/* <li className="nav-item">
+                                    <li className="nav-item">
                                         <Link href="/blogs">
                                             <a className="nav-link">
-                                                Blog 
+                                                Blogs
                                             </a>
                                         </Link>
 
                                         
-                                    </li> */}
+                                    </li>
 
                                     {/* <li className="nav-item">
                                         <Link href="/case-study">

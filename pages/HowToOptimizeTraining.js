@@ -1,23 +1,23 @@
 import React, { Component } from 'react';
 import Navbar from '../components/Layouts/Navbar';
 import PageBanner from '../components/Common/PageBanner';
-import News from '../components/Common/News';
+import HowToOptimizeTraining from '../components/News/HowToOptimizeTraining';
 import Footer from '../components/Layouts/Footer';
 
-class NewsGrid extends Component {
+class NewsDetails extends Component {
     render() {
         return (
             <>
                 <Navbar />
 
                 <PageBanner 
-                    pageTitle="Blogs" 
+                    pageTitle=" How to Optimize Employee Training for a Remote workplace in 2022" 
                     homePageUrl="/" 
-                    homePageText="Home" 
-                    activePageText="blogs" 
+                    homePageText="Blogs" 
+                    activePageText=" How to Optimize Employee Training for a Remote workplace in 2022" 
                 /> 
 
-                <News />
+                <HowToOptimizeTraining />
                 
                 <Footer />
             </>
@@ -25,4 +25,4 @@ class NewsGrid extends Component {
     }
 }
 
-export default NewsGrid;
+export default NewsDetails;
