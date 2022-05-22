@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import Navbar from '../components/Layouts/Navbar';
 import PageBanner from '../components/Common/PageBanner';
 import AllBlogs from '../components/Common/AllBlogs';
-import HorizentalBlogsScroller from '../components/Common/HorizentalBlogsScroller';
+// import HorizentalBlogsScroller from '../components/Common/HorizentalBlogsScroller';
 import Footer from '../components/Layouts/Footer';
 
 class NewsGrid extends Component {
@@ -19,7 +19,7 @@ class NewsGrid extends Component {
                 /> 
 
                 <AllBlogs />
-                <HorizentalBlogsScroller />
+                {/* <HorizentalBlogsScroller /> */}
                 
                 <Footer />
             </>

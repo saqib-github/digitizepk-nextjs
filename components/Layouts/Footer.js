@@ -12,7 +12,7 @@ class Footer extends Component {
                             <div className="col-lg-3 col-md-6">
                                 <div className="single-widget">
                                     <a href="/" className="logo">
-                                        <img src="/images/logo.png" alt="Image" />
+                                    <img width="176px" height="36px" src="/images/logo-white.png" alt="logo" />
                                     </a>
 
                                     <p>DigitizePK, is an exclusive network of the top remote developers, business analyst, web software designers, SEO experts, finance experts and project managers in the world. Top companies hire digitize remote developers for their most important projects.</p>

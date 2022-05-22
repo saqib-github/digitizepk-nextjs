@@ -42,7 +42,7 @@ class Navbar extends Component {
                         <div className="container">
                             <Link href="/">
                                 <a className="navbar-brand">
-                                    <img src="/images/logo-white.png" alt="logo" />
+                                    <img width="176px" height="36px" src="/images/logo-white.png" alt="logo" />
                                 </a>
                             </Link>
 
