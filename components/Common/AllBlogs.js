@@ -29,6 +29,33 @@ const blogsData = [
       "  Last week we released new builds of Remote developer’s for quick business assistance and JetBrains Gateway.",
     href: "/blogs/remote-developers-for-quick-business"
   },
+  {
+    imgSrc: "/images/blog-details/PandemiRemoteDevelopment.jpg",
+    date: "17 May",
+    postedBy: "By Mubashar Shahzad (SEO Executive)",
+    heading: "Management of Remote Development workers 2022: Challenges Analyse",
+    description:
+      " The 2020 pandemic ushered within the way forward for work, which lies within the remote. Putting an end to an age-old debate about remote work flexibility,",
+    href: "/blogs/management-of-remote-development-workers"
+  },
+  {
+    imgSrc: "/images/blog/how-to-hire-remote-developers.jpg",
+    date: "18 May",
+    postedBy: "By Mubashar Shahzad (SEO Executive)",
+    heading: "How to Hire Remote Developers?: Right Strategy",
+    description:
+      " There is no longer any doubt that remote work can be as productive and successful as on-site work in the office. And in some cases,",
+    href: "/blogs/how-to-hire-remote-developers"
+  },
+  {
+    imgSrc: "/images/blog/social-media.png",
+    date: "21 May",
+    postedBy: "By Mubashar Shahzad (SEO Executive)",
+    heading: "Top 10 Success Stories of Startups",
+    description:
+      " The most successful startups never had it good when they actually started. In fact, for many of them, the merchandise looked completely different,",
+    href: "/blogs/top-10-success-stories-of-startups"
+  }
 ];
 
 class News extends Component {

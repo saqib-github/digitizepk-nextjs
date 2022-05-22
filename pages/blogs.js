@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import Navbar from '../components/Layouts/Navbar';
 import PageBanner from '../components/Common/PageBanner';
-import News from '../components/Common/News';
+import AllBlogs from '../components/Common/AllBlogs';
+import HorizentalBlogsScroller from '../components/Common/HorizentalBlogsScroller';
 import Footer from '../components/Layouts/Footer';
 
 class NewsGrid extends Component {
@@ -17,7 +18,8 @@ class NewsGrid extends Component {
                     activePageText="blogs" 
                 /> 
 
-                <News />
+                <AllBlogs />
+                <HorizentalBlogsScroller />
                 
                 <Footer />
             </>

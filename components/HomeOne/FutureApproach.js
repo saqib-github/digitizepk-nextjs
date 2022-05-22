@@ -5,7 +5,7 @@ const About = () => {
     <section className="about-area pb-100 mt-5">
       <div className="container">
         <div className="row align-items-center">
-          <div className="col-lg-8">
+          <div className="col-lg-10">
             <div className="about-content">
               <h2>DigitizePK Future Approach</h2>
               <p>
@@ -18,7 +18,7 @@ const About = () => {
               </p>
             </div>
           </div>
-          <div className="col-lg-4">
+          <div className="col-lg-2">
             <div className="about-img">
               <img src="/images/futurevision.png" alt="Image" />
             </div>
