@@ -231,11 +231,6 @@ class NewsDetailsContent extends Component {
                     is crucial to keeping employees engaged and on the proper
                     path for enhanced performance and success.
                   </p>
-                  <p>
-                  <strong>Phill Miller</strong> is predicated in Indianapolis and is that the
-                    director for Open LMS, the world’s largest open-source LMS
-                    provider.
-                  </p>
                 </div>
 
                 {/* <div className="article-footer">
