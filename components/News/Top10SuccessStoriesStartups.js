@@ -261,25 +261,25 @@ class NewsDetailsContent extends Component {
                   </div>
                 </div> */}
 
-                {/* <div className="post-navigation">
+                <div className="post-navigation">
                   <div className="navigation-links">
                     <div className="nav-previous">
-                      <Link href="news-details/#">
+                      <Link href="/blogs/how-to-hire-remote-developers">
                         <a>
                           <i className="bx bx-left-arrow-alt"></i> Prev Post
                         </a>
                       </Link>
                     </div>
 
-                    <div className="nav-next">
+                    {/* <div className="nav-next">
                       <Link href="news-details/#">
                         <a>
                           Next Post <i className="bx bx-right-arrow-alt"></i>
                         </a>
                       </Link>
-                    </div>
+                    </div> */}
                   </div>
-                </div> */}
+                </div>
 
                 {/* Comments Area */}
                 {/* <CommentsArea /> */}
