@@ -191,7 +191,7 @@ class NewsDetailsContent extends Component {
                     content may be a great way to fulfil all of the criteria
                     within the EAT principle.
                   </p>
-                  <h3>5.Video become an effective part of SEO</h3>
+                  <h3>5. Video become an effective part of SEO</h3>
                   <p>
                     If you've got not done so already, it's imperative that you
                     develop an SEO strategy that includes video. the very fact
