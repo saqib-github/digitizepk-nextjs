@@ -55,6 +55,15 @@ const blogsData = [
     description:
       " The most successful startups never had it good when they actually started. In fact, for many of them, the merchandise looked completely different,",
     href: "/blogs/top-10-success-stories-of-startups"
+  },
+  {
+    imgSrc: "/images/blog-details/seo1.jpg",
+    date: "22 May",
+    postedBy: "By Mubashar Shahzad (SEO Executive)",
+    heading: "Search engine Optimization in 2022",
+    description:
+      " Today , the  very fact  is that many older strategies are not only ineffective in today’s SEO landscape,",
+    href: "/blogs/search-engine-optimization-in-2022"
   }
 ];
 
