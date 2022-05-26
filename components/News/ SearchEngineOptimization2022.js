@@ -13,6 +13,7 @@ class NewsDetailsContent extends Component {
               <div className="blog-details-desc">
                 <div className="article-image">
                   <img
+                    width="100%"
                     src="/images/blog-details/seo1.jpg"
                     alt="Image"
                   />

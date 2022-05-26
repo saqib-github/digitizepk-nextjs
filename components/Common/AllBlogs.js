@@ -64,6 +64,24 @@ const blogsData = [
     description:
       " Today , the  very fact  is that many older strategies are not only ineffective in today’s SEO landscape,",
     href: "/blogs/search-engine-optimization-in-2022"
+  },
+  {
+    imgSrc: "/images/blog-details/whyremotedevelopers.jpg",
+    date: "23 May",
+    postedBy: "By Mubashar Shahzad (SEO Executive)",
+    heading: "Why remote developers for quick business assistance?",
+    description:
+      " Remote developers for quick business assistance introduction After Covid anaemic 2021 the whole world shift towards work from home.",
+    href: "/blogs/why-remote-developers-quick-business-assistance"
+  },
+  {
+    imgSrc: "/images/blog-details/top-remote-jobs.jpg",
+    date: "24 May",
+    postedBy: "By Mubashar Shahzad (SEO Executive)",
+    heading: "The Best Software  Companies For Remote Jobs In 2021",
+    description:
+      "Glassdoor shows 3,937 companies  within the  middle of a hiring surge during Covid-19, 960 of which are in information technology.",
+    href: "/blogs/best-software-companies-remote-jobs"
   }
 ];
 
