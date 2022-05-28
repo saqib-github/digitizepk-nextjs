@@ -2,12 +2,12 @@ import React, { Component } from "react";
 import Link from "next/link";
 import dynamic from "next/dynamic";
 const ModalVideo = dynamic(() => import("react-modal-video"), {
-  ssr: false,
+  ssr: false
 });
 
 class MainBanner extends Component {
   state = {
-    isOpen: false,
+    isOpen: false
   };
   openModal = () => {
     this.setState({ isOpen: true });
@@ -22,7 +22,7 @@ class MainBanner extends Component {
               <div className="col-lg-6">
                 <div className="banner-text">
                   <h1>Hire the top remote developers Talent</h1>
-                  <p>
+                  <p style={{ fontSize: "20px" }}>
                     DigitizePK, is an exclusive network of the top remote
                     developers, business analyst, web software designers, SEO
                     experts, finance experts and project managers in the world.
@@ -32,7 +32,11 @@ class MainBanner extends Component {
 
                   <div className="banner-btn">
                     <Link href="/hire-top-talent">
-                      <a className="default-btn">Hire Top Talent</a>
+                      <a className="default-btn">
+                        <strong style={{ fontSize: "20px" }}>
+                          Hire Top Talent
+                        </strong>
+                      </a>
                     </Link>
 
                     {/* <div

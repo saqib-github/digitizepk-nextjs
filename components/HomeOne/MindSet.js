@@ -5,27 +5,75 @@ const About = () => {
     <section className="about-area pb-100 mt-5">
       <div className="container">
         <div className="row align-items-center">
-          <div className="col-lg-2">
+          <div className="col-lg-4">
             <div className="about-img">
-              <img src="/images/mindset.png" alt="mind set behind digitizePk" />
+              <img
+                height="250px"
+                width="250px"
+                src="/images/mindset.png"
+                alt="mind set behind digitizePk"
+              />
             </div>
           </div>
 
-          <div className="col-lg-10">
+          <div className="col-lg-8">
             <div className="about-content">
               <h2>Mindset behind DigitizePK</h2>
               <p>
-                COVID-19 urge humanity and entrepreneurs to think out of the
-                box. And DigitizePK is one of it. We came with the slogan of
-                assist you. Work through remote base mechanism. As one of highly
-                benefit of remote work is flexible timing and balance life
-                style. Work freely without any discrimination, and boss pressure
-                .DigitizePK assist to understand reinventing grow business
-                through quick remote base mechanism. We understand business
-                issues through business analyst finance expert technical
-                experts. And hire team according to your requirements.
-                DigitizePK assist businesses and work for the betterment for
-                business directly and human beings indirectly.
+                After the{" "}
+                <a
+                  href="https://www.cbsnews.com/amp/news/anthony-fauci-the-takeout-covid-19-positive"
+                  target="_blank"
+                  rel="noopener"
+                >
+                  Covid-19
+                </a>{" "}
+                pandemic, the World shifted towards{" "}
+                <a
+                  href="https://www.google.com/amp/s/www.nytimes.com/2020/08/20/style/office-culture.amp.html "
+                  target="_blank"
+                  rel="noopener"
+                >
+                  {" "}
+                  working from home{" "}
+                </a>{" "}
+                And{" "}
+                <a
+                  href="https://www.google.com/amp/s/amp.cnn.com/cnn/2022/01/27/success/full-time-remote-decision-pandemic/index.html"
+                  target="_blank"
+                  rel="noopener"
+                >
+                  {" "}
+                  Remote work{" "}
+                </a>{" "}
+                makes huge progress. Where remote development companies like{" "}
+                <a href="https://www.toptal.com" target="_blank" rel="noopener">
+                  Toptal
+                </a>{" "}
+                and{" "}
+                <a
+                  href="https://www.turing.com/"
+                  target="_blank"
+                  rel="noopener"
+                >
+                  Turing
+                </a>{" "}
+                are providing an efficient team of{" "}
+                <a
+                  href="https://www.linkedin.com/jobs/remote-developer-jobs"
+                  target="_blank"
+                  rel="noopener"
+                >
+                  remote developers
+                </a>{" "}
+                . DigitizePK introduced itself as,{" "}
+                <a
+                  href="https://www.digitizepk.com/blogs/remote-developers-and-digitize-pk"
+                  target="_blank"
+                  rel="noopener"
+                >
+                remote developers for quick business assistance in 2022</a>{" "} to
+                assist businesses.
               </p>
             </div>
           </div>

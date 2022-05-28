@@ -15,7 +15,8 @@ const blogsData = [
     imgSrc: "/images/blog/remotedevelopers2.jpg",
     date: "14 May",
     postedBy: "By Mubashar Shahzad (SEO Executive)",
-    heading: " How to Optimize Employee Training for a Remote workplace in 2022",
+    heading:
+      " How to Optimize Employee Training for a Remote workplace in 2022",
     description:
       "   Remote developers for quick business assistance, proposed remote training mechanism. When COVID-19 hit in March 2020, companies quickly responded by",
     href: "/blogs/how-to-optimize-training"
@@ -33,7 +34,8 @@ const blogsData = [
     imgSrc: "/images/blog-details/PandemiRemoteDevelopment.jpg",
     date: "17 May",
     postedBy: "By Mubashar Shahzad (SEO Executive)",
-    heading: "Management of Remote Development workers 2022: Challenges Analyse",
+    heading:
+      "Management of Remote Development workers 2022: Challenges Analyse",
     description:
       " The 2020 pandemic ushered within the way forward for work, which lies within the remote. Putting an end to an age-old debate about remote work flexibility,",
     href: "/blogs/management-of-remote-development-workers"
@@ -82,6 +84,15 @@ const blogsData = [
     description:
       "Glassdoor shows 3,937 companies  within the  middle of a hiring surge during Covid-19, 960 of which are in information technology.",
     href: "/blogs/best-software-companies-remote-jobs"
+  },
+  {
+    imgSrc: "/images/blog-details/business-idea-1.jpg",
+    date: "28 May",
+    postedBy: "By Mubashar Shahzad (SEO Executive)",
+    heading: "5 best Business ideas of 2022",
+    description:
+      "If  you've got  been asking yourself what business to start, then this list is for you.  consistent with  small business statistics,",
+    href: "/blogs/5-best-business-ideas-of-2022"
   }
 ];
 
@@ -107,6 +118,7 @@ class News extends Component {
                     <Link href={blog.href}>
                       <a>
                         <img
+                          style={{ height: "250px", width: "100%" }}
                           src={blog.imgSrc}
                           alt="remote developers and digitizepk"
                         />
@@ -138,9 +150,7 @@ class News extends Component {
                       </a>
                     </Link>
 
-                    <p>
-                      {blog.description}
-                    </p>
+                    <p>{blog.description}</p>
 
                     <Link href={blog.href}>
                       <a className="read-more">
@@ -151,7 +161,6 @@ class News extends Component {
                 </div>
               </div>
             ))}
-
           </div>
         </div>
       </section>

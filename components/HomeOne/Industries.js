@@ -7,8 +7,8 @@ class Industries extends Component {
             <section className="offer-area gray-bg ptb-100">
 			    <div className="container">
                     <div className="row">
-                        <div className="col-lg-6 col-sm-6">
-                            <div className="service-card" style={{height: "210px"}}>
+                        <div className="col-lg-12 col-sm-12">
+                            <div className="service-card">
                                 <h3>
                                     <Link href="#">
                                         <a>Healthcare </a>
@@ -18,8 +18,8 @@ class Industries extends Component {
                             </div>
                         </div>
 
-                        <div className="col-lg-6 col-sm-6">
-                            <div className="service-card" style={{height: "210px"}}>
+                        <div className="col-lg-12 col-sm-12">
+                            <div className="service-card">
                                 <h3>
                                     <Link href="#">
                                         <a>Agriculture </a>
@@ -29,8 +29,8 @@ class Industries extends Component {
                             </div>
                         </div>
 
-                        <div className="col-lg-6 col-sm-6">
-                            <div className="service-card" style={{height: "210px"}}>
+                        <div className="col-lg-12 col-sm-12">
+                            <div className="service-card">
                                 <h3>
                                     <Link href="#">
                                         <a>Non-Profit Companies</a>
@@ -40,8 +40,8 @@ class Industries extends Component {
                             </div>
                         </div>
 
-                        <div className="col-lg-6 col-sm-6">
-                            <div className="service-card" style={{height: "210px"}}>
+                        <div className="col-lg-12 col-sm-12">
+                            <div className="service-card">
                                 <h3>
                                     <Link href="#">
                                         <a>Research</a>
@@ -51,8 +51,8 @@ class Industries extends Component {
                             </div>
                         </div>
 
-                        <div className="col-lg-6 col-sm-6">
-                            <div className="service-card" style={{height: "210px"}}>
+                        <div className="col-lg-12 col-sm-12">
+                            <div className="service-card">
                                 <h3>
                                     <Link href="#">
                                         <a>Education</a>
@@ -62,8 +62,8 @@ class Industries extends Component {
                             </div>
                         </div>
 
-                        <div className="col-lg-6 col-sm-6">
-                            <div className="service-card" style={{height: "210px"}}>
+                        <div className="col-lg-12 col-sm-12">
+                            <div className="service-card">
                                 <h3>
                                     <Link href="#">
                                         <a>Information Technology</a>
@@ -74,8 +74,8 @@ class Industries extends Component {
                         </div>
 
 
-                        <div className="col-lg-6 col-sm-6">
-                            <div className="service-card" style={{height: "210px"}}>
+                        <div className="col-lg-12 col-sm-12">
+                            <div className="service-card">
                                 <h3>
                                     <Link href="#">
                                         <a>Finance Industry </a>
@@ -85,8 +85,8 @@ class Industries extends Component {
                             </div>
                         </div>
 
-                        <div className="col-lg-6 col-sm-6">
-                            <div className="service-card" style={{height: "210px"}}>
+                        <div className="col-lg-12 col-sm-12">
+                            <div className="service-card">
                                 <h3>
                                     <Link href="#">
                                         <a>B2B/B2C</a>

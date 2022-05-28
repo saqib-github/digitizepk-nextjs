@@ -19,25 +19,25 @@ class Footer extends Component {
 
                                     <ul className="social-icon">
                                         <li>
-                                            <a href="https://www.facebook.com/" target="_blank">
+                                            <a href="https://www.facebook.com/Digitizepk-105830458797349/" target="_blank" rel='noopener'>
                                                 <i className="bx bxl-facebook"></i>
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="https://twitter.com/" target="_blank">
-                                                <i className="bx bxl-twitter"></i>
+                                            <a href="https://youtube.com/channel/UCStzuqwTOKOuZQnyxrIDV-A" target="_blank" rel='noopener'>
+                                                <i className="bx bxl-youtube"></i>
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="https://www.linkedin.com/company/digitizepk/" target="_blank">
+                                            <a href="https://www.linkedin.com/company/digitizepk/" target="_blank" rel='noopener'>
                                                 <i className="bx bxl-linkedin"></i>
                                             </a>
                                         </li>
-                                        <li>
-                                            <a href="https://www.pinterest.com/" target="_blank">
+                                        {/* <li>
+                                            <a href="https://www.pinterest.com/" target="_blank" rel='noopener'>
                                                 <i className="bx bxl-pinterest-alt"></i>
                                             </a>
-                                        </li>
+                                        </li> */}
                                     </ul>
                                 </div>
                             </div>

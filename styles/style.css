@@ -82,7 +82,7 @@ Default Style
 body {
   padding: 0;
   margin: 0;
-  font-size: 15px;
+  font-size: 20px;
   line-height: 1.8;
   font-family: "Open Sans", sans-serif;
   color: #4d4d4d;
@@ -137,7 +137,7 @@ h3 {
 }
 
 p {
-  font-size: 15px;
+  font-size: 20px;
   margin-bottom: 15px;
   line-height: 1.8;
 }
@@ -1862,7 +1862,7 @@ Offer Area Style
   padding-right: 30px;
   padding-top: 25px;
   padding-bottom: 25px;
-  padding-left: 90px;
+  padding-left: 30px;
   background-color: #ffffff;
   border-radius: 4px;
   border: 1px dotted #1dd3f8;

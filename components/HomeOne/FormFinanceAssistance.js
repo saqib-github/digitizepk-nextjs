@@ -68,7 +68,7 @@ const FormFinanceAssistance = () => {
                 aria-label="Default select example"
                 required
               >
-                <option selected value="Quick Finance Assistance">
+                <option selected value="*Quick Finance Assistance">
                   Quick Finance Assistance
                 </option>
                 <option value="Finance Audit">Finance Audit</option>
@@ -95,7 +95,7 @@ const FormFinanceAssistance = () => {
                       className="form-control"
                       value={contact.bModel}
                       onChange={handleChange}
-                      required
+                      // required
                     />
                   </div>
                 </div>
@@ -105,7 +105,7 @@ const FormFinanceAssistance = () => {
                     <input
                       type="text"
                       name="issue1"
-                      placeholder="Issue No. 1"
+                      placeholder="*Issue No. 1"
                       className="form-control"
                       value={contact.issue1}
                       onChange={handleChange}
@@ -122,7 +122,7 @@ const FormFinanceAssistance = () => {
                       className="form-control"
                       value={contact.issue2}
                       onChange={handleChange}
-                      required
+                      // required
                     />
                   </div>
                 </div>
@@ -135,7 +135,7 @@ const FormFinanceAssistance = () => {
                       className="form-control"
                       value={contact.issue3}
                       onChange={handleChange}
-                      required
+                      // required
                     />
                   </div>
                 </div>
@@ -165,7 +165,7 @@ const FormFinanceAssistance = () => {
                       <input
                         type="text"
                         name="cDetail"
-                        placeholder="Email/Phone Number"
+                        placeholder="*Email/Phone Number"
                         className="form-control"
                         value={contact.cDetail}
                         onChange={handleChange}
@@ -181,7 +181,7 @@ const FormFinanceAssistance = () => {
                       <input
                         type="text"
                         name="email"
-                        placeholder="Email"
+                        placeholder="*Email"
                         className="form-control"
                         value={contact.email}
                         onChange={handleChange}

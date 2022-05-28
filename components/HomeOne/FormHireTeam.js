@@ -95,7 +95,7 @@ const FormHireTeam = () => {
                     <input
                       type="text"
                       name="pTeam1"
-                      placeholder="a)"
+                      placeholder="*a)"
                       className="form-control"
                       value={contact.pTeam1}
                       onChange={handleChange}
@@ -112,7 +112,7 @@ const FormHireTeam = () => {
                       className="form-control"
                       value={contact.pTeam2}
                       onChange={handleChange}
-                      required
+                      // required
                     />
                   </div>
                 </div>
@@ -125,7 +125,7 @@ const FormHireTeam = () => {
                       className="form-control"
                       value={contact.pTeam3}
                       onChange={handleChange}
-                      required
+                      // required
                     />
                   </div>
                 </div>
@@ -144,7 +144,7 @@ const FormHireTeam = () => {
                       className="form-control"
                       value={contact.bModel}
                       onChange={handleChange}
-                      required
+                      // required
                     />
                   </div>
                 </div>
@@ -158,7 +158,7 @@ const FormHireTeam = () => {
                       className="form-control"
                       value={contact.tPeriod}
                       onChange={handleChange}
-                      required
+                      // required
                     />
                   </div>
                 </div>
@@ -168,7 +168,7 @@ const FormHireTeam = () => {
                     <input
                       type="text"
                       name="issue1"
-                      placeholder="Issue No. 1"
+                      placeholder="*Issue No. 1"
                       className="form-control"
                       value={contact.issue1}
                       onChange={handleChange}
@@ -185,7 +185,7 @@ const FormHireTeam = () => {
                       className="form-control"
                       value={contact.issue2}
                       onChange={handleChange}
-                      required
+                      // required
                     />
                   </div>
                 </div>
@@ -198,7 +198,7 @@ const FormHireTeam = () => {
                       className="form-control"
                       value={contact.issue3}
                       onChange={handleChange}
-                      required
+                      // required
                     />
                   </div>
                 </div>
@@ -230,7 +230,7 @@ const FormHireTeam = () => {
                       <input
                         type="text"
                         name="cDetail"
-                        placeholder="Email/Phone Number"
+                        placeholder="*Email/Phone Number"
                         className="form-control"
                         value={contact.cDetail}
                         onChange={handleChange}
@@ -246,7 +246,7 @@ const FormHireTeam = () => {
                       <input
                         type="text"
                         name="email"
-                        placeholder="Email"
+                        placeholder="*Email"
                         className="form-control"
                         value={contact.email}
                         onChange={handleChange}

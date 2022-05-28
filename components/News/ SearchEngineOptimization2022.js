@@ -281,13 +281,13 @@ class NewsDetailsContent extends Component {
                       </Link>
                     </div>
 
-                    {/* <div className="nav-next">
-                      <Link href="/blogs/how-to-optimize-training">
+                    <div className="nav-next">
+                      <Link href="/blogs/why-remote-developers-quick-business-assistance">
                         <a>
                           Next Post <i className="bx bx-right-arrow-alt"></i>
                         </a>
                       </Link>
-                    </div> */}
+                    </div>
                   </div>
                 </div>
 

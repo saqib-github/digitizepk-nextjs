@@ -90,7 +90,7 @@ const ContactFormStyleTwo = () => {
                 aria-label="Default select example"
                 required
               >
-                <option selected value="Software Development">
+                <option selected value="*Software Development">
                   Software Development
                 </option>
                 <option value="Blockchain Issues">Blockchain Issues</option>
@@ -122,7 +122,7 @@ const ContactFormStyleTwo = () => {
                       className="form-control"
                       value={contact.bModel}
                       onChange={handleChange}
-                      required
+                      // required
                     />
                   </div>
                 </div>
@@ -132,7 +132,7 @@ const ContactFormStyleTwo = () => {
                     <input
                       type="text"
                       name="issue1"
-                      placeholder="Issue No. 1"
+                      placeholder="*Issue No. 1"
                       className="form-control"
                       value={contact.issue1}
                       onChange={handleChange}
@@ -149,7 +149,7 @@ const ContactFormStyleTwo = () => {
                       className="form-control"
                       value={contact.issue2}
                       onChange={handleChange}
-                      required
+                      // required
                     />
                   </div>
                 </div>
@@ -162,7 +162,7 @@ const ContactFormStyleTwo = () => {
                       className="form-control"
                       value={contact.issue3}
                       onChange={handleChange}
-                      required
+                      // required
                     />
                   </div>
                 </div>
@@ -192,7 +192,7 @@ const ContactFormStyleTwo = () => {
                       <input
                         type="text"
                         name="cDetail"
-                        placeholder="Email/Phone Number"
+                        placeholder="*Email/Phone Number"
                         className="form-control"
                         value={contact.cDetail}
                         onChange={handleChange}
@@ -208,7 +208,7 @@ const ContactFormStyleTwo = () => {
                       <input
                         type="text"
                         name="email"
-                        placeholder="Email"
+                        placeholder="*Email"
                         className="form-control"
                         value={contact.email}
                         onChange={handleChange}
