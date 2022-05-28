@@ -17,7 +17,7 @@ class MainBanner extends Component {
     return (
       <>
         <div className="main-banner-area main-banner-area-four">
-          <div className="container-fluid">
+          <div className="container">
             <div className="row align-items-center">
               <div className="col-lg-6">
                 <div className="banner-text">
@@ -63,6 +63,31 @@ class MainBanner extends Component {
               </div>
             </div>
           </div>
+          {/* <div className="container" style={{ color: "white" }}>
+            <div className="row text-center justify-content-center">
+              <div className="col-lg-4">
+                <h1 style={{ color: "white" }}>
+                  Hire the top remote developers Talent
+                </h1>
+                <p style={{ fontSize: "18px" }}>
+                  DigitizePK, is an exclusive network of the top remote
+                  developers, business analyst, web software designers, SEO
+                  experts, finance experts and project managers in the world.
+                  Top companies hire digitize remote developers for their most
+                  important projects.
+                </p>
+                <div className="text-center">
+                  <Link href="/hire-top-talent">
+                    <a className="default-btn">
+                      <strong style={{ fontSize: "20px" }}>
+                        Hire Top Talent
+                      </strong>
+                    </a>
+                  </Link>
+                </div>
+              </div>
+            </div>
+          </div> */}
 
           {/* Shape Images */}
           <div className="over-shape">
