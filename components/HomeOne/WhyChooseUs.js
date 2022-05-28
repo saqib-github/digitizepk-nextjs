@@ -32,10 +32,10 @@ const WhyChooseUs = () => {
         </div>
 
         <div className="row align-items-center">
-          <div className="col-lg-12">
+          <div className="col-lg-12 col-sm-12 col-md-12">
             <div className="choose-content">
               <ul>
-                <li>
+                <li className="ml">
                   <span>
                     01
                     <i className="flaticon-technical-support"></i>
@@ -97,7 +97,7 @@ const WhyChooseUs = () => {
                     clients or businesses
                   </p>
                 </li>
-                <li>
+                <li className="ml">
                   <span>
                     02
                     <i className="flaticon-technical-support"></i>
@@ -151,7 +151,7 @@ const WhyChooseUs = () => {
                   </p>
                 </li>
 
-                <li className="ml-25">
+                <li className="ml">
                   <span>
                     05 <i className="flaticon-support"></i>
                   </span>
