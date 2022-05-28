@@ -73,7 +73,7 @@ class Navbar extends Component {
                   <li className="nav-item">
                     <Link href="/">
                       <a className="nav-link">
-                        <strong style={{ fontSize: "20px" }}>Home </strong>
+                        <strong style={{ fontSize: "16px" }}>Home </strong>
                       </a>
                     </Link>
                   </li>
@@ -81,7 +81,7 @@ class Navbar extends Component {
                   <li className="nav-item">
                     <Link href="/services">
                       <a className="nav-link">
-                        <strong style={{ fontSize: "20px" }}>Services </strong>
+                        <strong style={{ fontSize: "16px" }}>Services </strong>
                       </a>
                     </Link>
                   </li>
@@ -89,7 +89,7 @@ class Navbar extends Component {
                   <li className="nav-item">
                     <Link href="/industry">
                       <a className="nav-link">
-                        <strong style={{ fontSize: "20px" }}>Industry </strong>
+                        <strong style={{ fontSize: "16px" }}>Industry </strong>
                       </a>
                     </Link>
                   </li>
@@ -97,7 +97,7 @@ class Navbar extends Component {
                   <li className="nav-item">
                     <Link href="/community">
                       <a className="nav-link">
-                        <strong style={{ fontSize: "20px" }}>Community </strong>
+                        <strong style={{ fontSize: "16px" }}>Community </strong>
                       </a>
                     </Link>
                   </li>
@@ -105,7 +105,7 @@ class Navbar extends Component {
                   <li className="nav-item">
                     <Link href="/blogs">
                       <a className="nav-link">
-                        <strong style={{ fontSize: "20px" }}>Blogs </strong>
+                        <strong style={{ fontSize: "16px" }}>Blogs </strong>
                       </a>
                     </Link>
                   </li>
@@ -123,7 +123,7 @@ class Navbar extends Component {
                   <li className="nav-item">
                     <Link href="/apply">
                       <a className="nav-link">
-                        <strong style={{ fontSize: "20px" }}>Apply </strong>
+                        <strong style={{ fontSize: "16px" }}>Apply </strong>
                       </a>
                     </Link>
                   </li>
@@ -131,7 +131,7 @@ class Navbar extends Component {
                   <li className="nav-item">
                     <Link href="/hire-top-talent">
                       <a className="nav-link">
-                        <strong style={{ fontSize: "20px" }}>Hire </strong>
+                        <strong style={{ fontSize: "16px" }}>Hire </strong>
                       </a>
                     </Link>
                   </li>
@@ -148,7 +148,7 @@ class Navbar extends Component {
                   <li className="nav-item">
                     <Link href="/contact">
                       <a className="nav-link">
-                        <strong style={{ fontSize: "20px" }}>
+                        <strong style={{ fontSize: "16px" }}>
                           Contact Us{" "}
                         </strong>
                       </a>

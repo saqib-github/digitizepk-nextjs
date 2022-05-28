@@ -63,7 +63,7 @@ const About = () => {
               <img
                 height="250px"
                 width="250px"
-                src="/images/futurevision.png"
+                src="/images/futurevision.webp"
                 alt="Image"
               />
             </div>

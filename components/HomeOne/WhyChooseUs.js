@@ -35,7 +35,7 @@ const WhyChooseUs = () => {
           <div className="col-lg-12 col-sm-12 col-md-12">
             <div className="choose-content">
               <ul>
-                <li className="ml">
+                <li className="">
                   <span>
                     01
                     <i className="flaticon-technical-support"></i>
@@ -109,7 +109,7 @@ const WhyChooseUs = () => {
                     expert integrity, professionalism, and communication.
                   </p>
                 </li>
-                <li className="ml">
+                <li className="">
                   <span>
                     03
                     <i className="flaticon-shield"></i>
@@ -151,7 +151,7 @@ const WhyChooseUs = () => {
                   </p>
                 </li>
 
-                <li className="ml">
+                <li className="">
                   <span>
                     05 <i className="flaticon-support"></i>
                   </span>

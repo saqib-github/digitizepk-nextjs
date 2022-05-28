@@ -10,7 +10,7 @@ const About = () => {
               <img
                 height="250px"
                 width="250px"
-                src="/images/mindset.png"
+                src="/images/mindset.webp"
                 alt="mind set behind digitizePk"
               />
             </div>

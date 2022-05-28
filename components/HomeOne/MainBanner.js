@@ -22,7 +22,7 @@ class MainBanner extends Component {
               <div className="col-lg-6">
                 <div className="banner-text">
                   <h1>Hire the top remote developers Talent</h1>
-                  <p style={{ fontSize: "20px" }}>
+                  <p style={{ fontSize: "18px" }}>
                     DigitizePK, is an exclusive network of the top remote
                     developers, business analyst, web software designers, SEO
                     experts, finance experts and project managers in the world.
