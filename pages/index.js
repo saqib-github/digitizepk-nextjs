@@ -1,46 +1,42 @@
-import Navbar from '../components/Layouts/Navbar'
-import MainBanner from '../components/HomeOne/MainBanner'
+import Navbar from "../components/Layouts/Navbar";
+import MainBanner from "../components/HomeOne/MainBanner";
 // import Features from '../components/HomeOne/Features'
-import MindSet from '../components/HomeOne/MindSet'
-import FutureApproach from '../components/HomeOne/FutureApproach'
-import HiringMechanism from '../components/HomeOne/HiringMechanism'
-import FutureVision from '../components/HomeOne/FutureVision'
-import WhyChooseUs from '../components/HomeOne/WhyChooseUs'
+import MindSet from "../components/HomeOne/MindSet";
+import FutureApproach from "../components/HomeOne/FutureApproach";
+import HiringMechanism from "../components/HomeOne/HiringMechanism";
+import FutureVision from "../components/HomeOne/FutureVision";
+import WhyChooseUs from "../components/HomeOne/WhyChooseUs";
 // import WhatWeOffer from '../components/HomeOne/WhatWeOffer'
 // import Testimonials from '../components/Common/Testimonials'
-import News from '../components/Common/News'
-import Footer from '../components/Layouts/Footer'
+import News from "../components/Common/News";
+import Footer from "../components/Layouts/Footer";
 
 const Index = () => {
-    return (
-        <>
-            <Navbar />
-            
-            <MainBanner />
+  return (
+    <>
+      <Navbar />
 
-            {/* <Features /> */}
+      <MainBanner />
 
-            <MindSet />
+      {/* <Features /> */}
 
-            <FutureApproach />
+      <MindSet />
 
-            <HiringMechanism />
+      <FutureApproach />
 
+      <HiringMechanism />
 
-            {/* <FutureVision /> */}
+      {/* <FutureVision /> */}
 
-            <WhyChooseUs />
+      <WhyChooseUs />
 
+      {/* <Testimonials /> */}
 
+      <News />
 
+      <Footer />
+    </>
+  );
+};
 
-            {/* <Testimonials /> */}
-
-            <News />
-            
-            <Footer />
-        </>
-    )
-}
-
-export default Index
+export default Index;

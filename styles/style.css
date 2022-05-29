@@ -294,7 +294,7 @@ Go Top Style
   cursor: pointer;
   bottom: 15px;
   right: 15px;
-  background-color: #212121;
+  /* background-color: #212121; */
   z-index: 4;
   width: 40px;
   text-align: center;

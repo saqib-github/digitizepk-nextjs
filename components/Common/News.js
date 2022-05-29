@@ -3,6 +3,7 @@ import Link from "next/link";
 
 const blogsData = [
   {
+    key: 1,
     imgSrc: "/images/blog-details/whyremotedevelopers.jpg",
     date: "23 May",
     postedBy: "By Mubashar Shahzad (SEO Executive)",
@@ -12,6 +13,7 @@ const blogsData = [
     href: "/blogs/why-remote-developers-quick-business-assistance"
   },
   {
+    key: 2,
     imgSrc: "/images/blog-details/top-remote-jobs.jpg",
     date: "24 May",
     postedBy: "By Mubashar Shahzad (SEO Executive)",
@@ -21,6 +23,7 @@ const blogsData = [
     href: "/blogs/best-software-companies-remote-jobs"
   },
   {
+    key: 3,
     imgSrc: "/images/blog-details/business-idea-1.jpg",
     date: "28 May",
     postedBy: "By Mubashar Shahzad (SEO Executive)",
@@ -47,7 +50,7 @@ class News extends Component {
 
           <div className="row">
             {blogsData.map((blog) => (
-              <div className="col-lg-4 col-md-6">
+              <div className="col-lg-4 col-md-6" key={blog.key}>
                 <div className="single-news">
                   <div className="blog-img">
                     <Link href={blog.href}>
