@@ -10,10 +10,22 @@ import WhyChooseUs from "../components/HomeOne/WhyChooseUs";
 // import Testimonials from '../components/Common/Testimonials'
 import News from "../components/Common/News";
 import Footer from "../components/Layouts/Footer";
+import Head from 'next/head';
 
 const Index = () => {
   return (
     <>
+     <Head>
+      <title>Best remote developers for quik business assistance</title>
+      <meta
+          name="description"
+          content="DigitizePK, is an exclusive network of the top remote
+          developers, business analyst, web software designers, SEO
+          experts, finance experts and project managers in the world.
+          Top companies hire digitize remote developers for their most
+          important projects."
+        ></meta>
+      </Head>
       <Navbar />
 
       <MainBanner />

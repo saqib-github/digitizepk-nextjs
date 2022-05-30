@@ -93,6 +93,15 @@ const blogsData = [
     description:
       "If  you've got  been asking yourself what business to start, then this list is for you.  consistent with  small business statistics,",
     href: "/blogs/5-best-business-ideas-of-2022"
+  },
+  {
+    imgSrc: "/images/blog-details/remote-effective-developer.jpg",
+    date: "30 May",
+    postedBy: "By Mubashar Shahzad (SEO Executive)",
+    heading: "How to become an effective remote developer 2022?",
+    description:
+      "In this age of connectivity, working remotely has become the dream  of the many having the ability  to work with the world’s top companies",
+    href: "/blogs/how-become-effective-remote-developer-2022"
   }
 ];
 
@@ -111,7 +120,7 @@ class News extends Component {
           </div>
 
           <div className="row">
-            {blogsData.map((blog) => (
+            {blogsData.map(blog =>
               <div className="col-lg-4 col-md-6">
                 <div className="single-news">
                   <div className="blog-img">
@@ -126,7 +135,9 @@ class News extends Component {
                     </Link>
 
                     <div className="dates">
-                      <span>{blog.date}</span>
+                      <span>
+                        {blog.date}
+                      </span>
                     </div>
                   </div>
 
@@ -135,7 +146,7 @@ class News extends Component {
                       <li>
                         <Link href={blog.href}>
                           <a>
-                            <i className="flaticon-user"></i> {blog.postedBy}
+                            <i className="flaticon-user" /> {blog.postedBy}
                           </a>
                         </Link>
                       </li>
@@ -146,21 +157,25 @@ class News extends Component {
 
                     <Link href={blog.href}>
                       <a>
-                        <h3>{blog.heading}</h3>
+                        <h3>
+                          {blog.heading}
+                        </h3>
                       </a>
                     </Link>
 
-                    <p>{blog.description}</p>
+                    <p>
+                      {blog.description}
+                    </p>
 
                     <Link href={blog.href}>
                       <a className="read-more">
-                        Read More <i className="bx bx-plus"></i>
+                        Read More <i className="bx bx-plus" />
                       </a>
                     </Link>
                   </div>
                 </div>
               </div>
-            ))}
+            )}
           </div>
         </div>
       </section>
