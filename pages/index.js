@@ -19,9 +19,7 @@ const Index = () => {
       <title>Best remote developers for quik business assistance</title>
       <meta
           name="description"
-          content="DigitizePK, is an exclusive network of the top remote
-          developers, business analyst, web software designers, SEO
-          experts, finance experts and project managers in the world."
+          content="DigitizePK, is an exclusive network of the top remote developers, business analyst, web software designers, SEO experts, finance experts and project managers."
         ></meta>
       </Head>
       <Navbar />
