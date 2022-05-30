@@ -21,9 +21,7 @@ const Index = () => {
           name="description"
           content="DigitizePK, is an exclusive network of the top remote
           developers, business analyst, web software designers, SEO
-          experts, finance experts and project managers in the world.
-          Top companies hire digitize remote developers for their most
-          important projects."
+          experts, finance experts and project managers in the world."
         ></meta>
       </Head>
       <Navbar />
