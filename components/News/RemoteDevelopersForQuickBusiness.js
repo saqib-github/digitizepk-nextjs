@@ -13,6 +13,7 @@ class NewsDetailsContent extends Component {
               <div className="blog-details-desc">
                 <div className="article-image">
                   <img
+                    width="100%"
                     src="/images/blog-details/rider.jpg"
                     alt="Image"
                   />
@@ -92,8 +93,8 @@ class NewsDetailsContent extends Component {
                   </p>
                   <div className="article-image">
                     <img
-                      height="400px"
-                      width="400px"
+                      // height="400px"
+                      width="100%"
                       src="/images/blog-details/rider.jpg"
                       alt="Image"
                     />
@@ -155,8 +156,8 @@ class NewsDetailsContent extends Component {
                   </p>
                   <div className="article-image">
                     <img
-                      height="400px"
-                      width="400px"
+                      // height="400px"
+                      width="100%"
                       src="/images/blog-details/ui.jpg"
                       alt="Image"
                     />

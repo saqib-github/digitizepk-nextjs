@@ -13,6 +13,7 @@ class NewsDetailsContent extends Component {
               <div className="blog-details-desc">
                 <div className="article-image">
                   <img
+                    width="100%"
                     src="/images/blog-details/remotedevelopers2.jpg"
                     alt="Image"
                   />
@@ -88,8 +89,8 @@ class NewsDetailsContent extends Component {
                   </p>
                   <div className="article-image">
                     <img
-                      height="400px"
-                      width="400px"
+                      // height="400px"
+                      width="100%"
                       src="/images/blog-details/talk to our business analyst.jpg"
                       alt="Image"
                     />
@@ -122,8 +123,8 @@ class NewsDetailsContent extends Component {
 
                   <div className="article-image">
                     <img
-                      height="400px"
-                      width="400px"
+                      // height="400px"
+                      width="100%"
                       src="/images/blog-details/optimize.jpg"
                       alt="Image"
                     />
@@ -172,8 +173,8 @@ class NewsDetailsContent extends Component {
                   </p>
                   <div className="article-image">
                     <img
-                      height="400px"
-                      width="400px"
+                      // height="400px"
+                      width="100%"
                       src="/images/blog-details/optimize2.jpg"
                       alt="Image"
                     />
@@ -225,7 +226,11 @@ class NewsDetailsContent extends Component {
                   <h3>Conclusion</h3>
                   <p>
                     In today’s ever-evolving professional landscape, it’s clear
-                    that <strong> remote developers for quick business assistance</strong>
+                    that{" "}
+                    <strong>
+                      {" "}
+                      remote developers for quick business assistance
+                    </strong>
                     introduce the remote workforce to remain . That’s why
                     optimizing your teams with engaging and sustainable training
                     is crucial to keeping employees engaged and on the proper

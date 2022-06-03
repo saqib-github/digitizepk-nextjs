@@ -13,6 +13,7 @@ class NewsDetailsContent extends Component {
               <div className="blog-details-desc">
                 <div className="article-image">
                   <img
+                    width="100%"
                     src="/images/blog-details/PandemiRemoteDevelopment.jpg"
                     alt="Image"
                   />
@@ -65,8 +66,8 @@ class NewsDetailsContent extends Component {
                   </p>
                   <div className="article-image">
                     <img
-                      height="400px"
-                      width="400px"
+                      // height="400px"
+                      width="100%"
                       src="/images/blog-details/panadamic-1.jpg"
                       alt="Image"
                     />
@@ -112,8 +113,8 @@ class NewsDetailsContent extends Component {
                   </p>
                   <div className="article-image">
                     <img
-                      height="400px"
-                      width="400px"
+                      // height="400px"
+                      width="100%"
                       src="/images/blog-details/panadamic-2.jpg"
                       alt="Image"
                     />
@@ -221,8 +222,8 @@ class NewsDetailsContent extends Component {
                   </p>
                   <div className="article-image">
                     <img
-                      height="400px"
-                      width="400px"
+                      // height="400px"
+                      width="100%"
                       src="/images/blog-details/panadamic-3.jpg"
                       alt="Image"
                     />
@@ -281,8 +282,8 @@ class NewsDetailsContent extends Component {
                   </p>
                   <div className="article-image">
                     <img
-                      height="400px"
-                      width="400px"
+                      // height="400px"
+                      width="100%"
                       src="/images/blog-details/panadamic-4.jpg"
                       alt="Image"
                     />
@@ -319,8 +320,8 @@ class NewsDetailsContent extends Component {
                   </p>
                   <div className="article-image">
                     <img
-                      height="400px"
-                      width="400px"
+                      // height="400px"
+                      width="100%"
                       src="/images/blog-details/panadamic-5.jpg"
                       alt="Image"
                     />
@@ -397,8 +398,8 @@ class NewsDetailsContent extends Component {
                   </p>
                   <div className="article-image">
                     <img
-                      height="400px"
-                      width="400px"
+                      // height="400px"
+                      width="100%"
                       src="/images/blog-details/panadamic-6.jpg"
                       alt="Image"
                     />

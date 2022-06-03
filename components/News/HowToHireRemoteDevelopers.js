@@ -13,6 +13,7 @@ class NewsDetailsContent extends Component {
               <div className="blog-details-desc">
                 <div className="article-image">
                   <img
+                    width="100%"
                     src="/images/blog/how-to-hire-remote-developers.jpg"
                     alt="Image"
                   />
@@ -63,8 +64,8 @@ class NewsDetailsContent extends Component {
                   </p>
                   <div className="article-image">
                     <img
-                      height="400px"
-                      width="400px"
+                      // height="400px"
+                      width="100%"
                       src="/images/blog/how-to-hire-remote-developers.jpg"
                       alt="Image"
                     />
@@ -92,8 +93,8 @@ class NewsDetailsContent extends Component {
                   </p>
                   <div className="article-image">
                     <img
-                      height="400px"
-                      width="400px"
+                      // height="400px"
+                      width="100%"
                       src="/images/blog-details/hotohire-1.jpg"
                       alt="Image"
                     />
@@ -121,8 +122,8 @@ class NewsDetailsContent extends Component {
                   </p>
                   <div className="article-image">
                     <img
-                      height="400px"
-                      width="400px"
+                      // height="400px"
+                      width="100%"
                       src="/images/blog-details/howtohire-2.jpg"
                       alt="Image"
                     />
@@ -215,8 +216,8 @@ class NewsDetailsContent extends Component {
                   </p>
                   <div className="article-image">
                     <img
-                      height="400px"
-                      width="400px"
+                      // height="400px"
+                      width="100%"
                       src="/images/blog-details/howtohire-3.jpg"
                       alt="Image"
                     />

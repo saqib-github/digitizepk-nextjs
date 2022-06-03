@@ -100,8 +100,8 @@ class NewsDetailsContent extends Component {
 
                   <div className="article-image">
                     <img
-                      height="400px"
-                      width="400px"
+                      // height="400px"
+                      width="100%"
                       src="/images/blog-details/remote-effective-developer.jpg"
                       alt="Image"
                     />
@@ -163,8 +163,8 @@ class NewsDetailsContent extends Component {
                   </p>
                   <div className="article-image">
                     <img
-                      height="400px"
-                      width="400px"
+                      // height="400px"
+                      width="100%"
                       src="/images/blog-details/remote-effective-developer-2.jpg"
                       alt="Image"
                     />
@@ -201,8 +201,8 @@ class NewsDetailsContent extends Component {
                   </p>
                   <div className="article-image">
                     <img
-                      height="400px"
-                      width="400px"
+                      // height="400px"
+                      width="100%"
                       src="/images/blog-details/remote-effective-developer-3.jpg"
                       alt="Image"
                     />
@@ -232,8 +232,8 @@ class NewsDetailsContent extends Component {
                   </p>
                   <div className="article-image">
                     <img
-                      height="400px"
-                      width="400px"
+                      // height="400px"
+                      width="100%"
                       src="/images/blog-details/remote-effective-developer-4.jpg"
                       alt="Image"
                     />
@@ -353,8 +353,8 @@ class NewsDetailsContent extends Component {
                   </p>
                   <div className="article-image">
                     <img
-                      height="400px"
-                      width="400px"
+                      // height="400px"
+                      width="100%"
                       src="/images/blog-details/remote-effective-developer-5.jpg"
                       alt="Image"
                     />

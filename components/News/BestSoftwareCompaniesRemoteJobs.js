@@ -57,8 +57,8 @@ class NewsDetailsContent extends Component {
                   </p>
                   <div className="article-image">
                     <img
-                      height="400px"
-                      width="400px"
+                      // height="400px"
+                      width="100%"
                       src="/images/blog-details/top-remote-jobs.jpg"
                       alt="Image"
                     />
@@ -84,8 +84,8 @@ class NewsDetailsContent extends Component {
                   <h3>GitLab</h3>
                   <div className="article-image">
                     <img
-                      height="400px"
-                      width="400px"
+                      // height="400px"
+                      width="100%"
                       src="/images/blog-details/gitlab.jpg"
                       alt="Image"
                     />
@@ -110,8 +110,8 @@ class NewsDetailsContent extends Component {
                   </p>
                   <div className="article-image">
                     <img
-                      height="400px"
-                      width="400px"
+                      // height="400px"
+                      width="100%"
                       src="/images/blog-details/top-remote-jobs-2.jpg"
                       alt="Image"
                     />
