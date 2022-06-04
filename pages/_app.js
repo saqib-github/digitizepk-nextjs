@@ -36,6 +36,14 @@ export default class MyApp extends App {
                 <Head>
                     <meta name="viewport" content="width=device-width, initial-scale=1" />
                     <title>Best remote developers for quik business assistance</title>
+                    <meta property="og:type" content="website" />
+        <meta property="og:title" content="DigitizePK" />
+       
+        <meta property="og:description" content="DigitizePK, is an exclusive network of the top remote developers, business analyst, web software designers, SEO experts, finance experts and project managers." />
+        <meta property="og:url" content="https://digitizepk.com" />
+        <meta property="og:site_name" content="DigitizePK" />
+        <meta property="twitter:card" content="summary_large_image" />
+        <meta property="twitter:site" content="@digitize_pk" />
                 </Head>
 
                 <Component {...pageProps} />
