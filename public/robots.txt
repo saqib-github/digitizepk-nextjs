@@ -1,0 +1,8 @@
+# *
+User-agent: *
+
+# Host
+Host: https://digitizepk.com
+
+# Sitemaps
+Sitemap: https://digitizepk.com/sitemap.xml
