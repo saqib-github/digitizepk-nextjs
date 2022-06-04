@@ -44,6 +44,15 @@ class Footer extends Component {
                       </li>
                       <li>
                         <a
+                          href="https://twitter.com/digitize_pk"
+                          target="_blank"
+                          rel="noopener"
+                        >
+                          <i className="bx bxl-twitter"></i>
+                        </a>
+                      </li>
+                      <li>
+                        <a
                           href="https://youtube.com/channel/UCStzuqwTOKOuZQnyxrIDV-A"
                           target="_blank"
                           rel="noopener"

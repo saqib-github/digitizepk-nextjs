@@ -12,8 +12,16 @@ class Community extends Component {
           <title>DigitizePK Community</title>
           <meta
             name="description"
-            content="DigitizePK has vision to work globally with prestigious established brands in the market. So remote developers for quick business assistance want to target the expert from various fields."
+            content="DigitizePK has vision to work globally with prestigious established brands in the market. So remote developers for quick business assistance want to target the expert from various fields."
           ></meta>
+          <meta property="og:type" content="page" />
+        <meta property="og:title" content="Community" />
+       
+        <meta property="og:description" content="DigitizePK has vision to work globally with prestigious established brands in the market. So remote developers for quick business assistance want to target the expert from various fields." />
+        <meta property="og:url" content="https://digitizepk.com/community" />
+        <meta property="og:site_name" content="DigitizePK Community" />
+        <meta property="twitter:card" content="summary_large_image" />
+        <meta property="twitter:site" content="@digitize_pk" />
         </Head>
         <Navbar />
 

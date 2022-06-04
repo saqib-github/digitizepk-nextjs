@@ -16,6 +16,14 @@ class Contact extends Component {
             name="description"
             content="Contact DigitizePK and get the assistance you need via email or phone number."
           ></meta>
+            <meta property="og:type" content="page" />
+        <meta property="og:title" content="Contact" />
+       
+        <meta property="og:description" content="Contact DigitizePK and get the assistance you need via email or phone number." />
+        <meta property="og:url" content="https://digitizepk.com/contact" />
+        <meta property="og:site_name" content="DigitizePK Contact" />
+        <meta property="twitter:card" content="summary_large_image" />
+        <meta property="twitter:site" content="@digitize_pk" />
         </Head>
         <Navbar />
 

@@ -13,6 +13,14 @@ const Index = () => {
           name="description"
           content="Remote developer for quick business assistance believe in to assist policy. DigitizePK, work remotely under the most reliable professionals and  supervision of experts to assist  businesses and introduce smart technology in various industry."
         ></meta>
+        <meta property="og:type" content="page" />
+          <meta property="og:title" content="Industry" />
+       
+       <meta property="og:description" content="Remote developer for quick business assistance believe in to assist policy. DigitizePK, work remotely under the most reliable professionals and  supervision of experts to assist  businesses and introduce smart technology in various industry." />
+       <meta property="og:url" content="https://digitizepk.com/industry" />
+       <meta property="og:site_name" content="DigitizePK Industry" />
+       <meta property="twitter:card" content="summary_large_image" />
+       <meta property="twitter:site" content="@digitize_pk" />
       </Head>
       <Navbar />
 
