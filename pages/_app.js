@@ -11,29 +11,38 @@ import App from 'next/app';
 import Head from 'next/head';
 import Loader from '../components/Shared/Loader';
 import GoTop from '../components/Shared/GoTop';
+import { useEffect, useState } from 'react'
+import Script from 'next/script'
+import * as gtag from '../lib/gtag'
+import { useRouter } from 'next/router'
 
-export default class MyApp extends App {
-
-    // Preloader
-    state = {
-        loading: true
-    };
-    componentDidMount() {
-        this.timerHandle = setTimeout(() => this.setState({ loading: false }), 2000); 
+const MyApp = ({ Component, pageProps }) => {
+    const [loading, setState] = useState(true);
+  const router = useRouter();
+  useEffect(() => {
+    const timerHandle = () => setTimeout(() => setState(false), 2000);
+    timerHandle();
+    // if (timerHandle) {
+    //     clearTimeout(timerHandle);
+    //     timerHandle = 0;
+    // }
+  }, [])
+  useEffect(() => {
+    const handleRouteChange = (url) => {
+      gtag.pageview(url)
     }
-    componentWillUnmount() {
-        if (this.timerHandle) {
-            clearTimeout(this.timerHandle);
-            this.timerHandle = 0;
-        }
+    router.events.on('routeChangeComplete', handleRouteChange)
+    router.events.on('hashChangeComplete', handleRouteChange)
+    return () => {
+      router.events.off('routeChangeComplete', handleRouteChange)
+      router.events.off('hashChangeComplete', handleRouteChange)
     }
-    
-    render () {
-        const { Component, pageProps } = this.props
+  }, [router.events]);
 
-        return (
-            <>
-                <Head>
+  return (
+    <>
+      {/* Global Site Tag (gtag.js) - Google Analytics */}
+      <Head>
                     <meta name="viewport" content="width=device-width, initial-scale=1" />
                     <title>Best remote developers for quik business assistance</title>
                     <meta property="og:type" content="website" />
@@ -45,15 +54,33 @@ export default class MyApp extends App {
         <meta property="twitter:card" content="summary_large_image" />
         <meta property="twitter:site" content="@digitize_pk" />
                 </Head>
-
-                <Component {...pageProps} />
+      <Script
+        strategy="afterInteractive"
+        src={`https://www.googletagmanager.com/gtag/js?id=${gtag.GA_TRACKING_ID}`}
+      />
+      <Script
+        id="gtag-init"
+        strategy="afterInteractive"
+        dangerouslySetInnerHTML={{
+          __html: `
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', '${gtag.GA_TRACKING_ID}', {
+              page_path: window.location.pathname,
+            });
+          `,
+        }}
+      />
+        <Component {...pageProps} />
                 
                 {/* Preloader */}
-                <Loader loading={this.state.loading} />
+                <Loader loading={loading} />
 
                 {/* Go Top Button */}
                 <GoTop scrollStepInPx="100" delayInMs="10.50" />
-            </>
-        );
-    }
+    </>
+  )
 }
+
+export default MyApp;
