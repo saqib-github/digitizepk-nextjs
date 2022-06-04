@@ -102,6 +102,15 @@ const blogsData = [
     description:
       "In this age of connectivity, working remotely has become the dream  of the many having the ability  to work with the world’s top companies",
     href: "/blogs/how-become-effective-remote-developer-2022"
+  },
+  {
+    imgSrc: "/images/blog-details/digitizepk-1.jpg",
+    date: "4 Jun",
+    postedBy: "By Mubashar Shahzad (SEO Executive)",
+    heading: "DigitizePK (Believe in assist you)",
+    description:
+      "DigitizePK, is an exclusive network of the top remote developers for quick business assistance, business analyst, finance experts",
+    href: "/blogs/digitize-pk-believe-in-assist-you"
   }
 ];
 

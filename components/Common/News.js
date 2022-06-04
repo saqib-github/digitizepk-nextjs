@@ -4,13 +4,13 @@ import Link from "next/link";
 const blogsData = [
   {
     key: 1,
-    imgSrc: "/images/blog-details/whyremotedevelopers.jpg",
-    date: "23 May",
+    imgSrc: "/images/blog-details/digitizepk-1.jpg",
+    date: "4 Jun",
     postedBy: "By Mubashar Shahzad (SEO Executive)",
-    heading: "Why remote developers for quick business assistance?",
+    heading: "DigitizePK (Believe in assist you)",
     description:
-      " Remote developers for quick business assistance introduction After Covid anaemic 2021 the whole world shift towards work from home.",
-    href: "/blogs/why-remote-developers-quick-business-assistance"
+      "DigitizePK, is an exclusive network of the top remote developers for quick business assistance, business analyst, finance experts",
+    href: "/blogs/digitize-pk-believe-in-assist-you"
   },
   {
     key: 2,
