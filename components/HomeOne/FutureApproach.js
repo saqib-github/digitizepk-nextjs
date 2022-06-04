@@ -16,7 +16,7 @@ const About = () => {
                   target="_blank"
                   rel="noopener"
                 >
-                  Global warmin
+                  Global warming
                 </a>
                 ,
                 {" "}<a

@@ -10,8 +10,8 @@ class ContactInfo extends Component {
                             <div className="single-contact-info">
                                 <i className="bx bx-envelope"></i>
                                 <h3>Email Us:</h3>
-                                <p><a href="mailto:hello@jumpx.com">hello@digitizepk.com</a></p>
-                                <p><a href="mailto:info@jumpx.com">info@digitize.com</a></p>
+                                <p><a href="mailto:hello@digitizepk.com">hello@digitizepk.com</a></p>
+                                <p><a href="mailto:info@digitizepk.com">info@digitize.com</a></p>
                             </div>
                         </div>
 
@@ -19,8 +19,8 @@ class ContactInfo extends Component {
                             <div className="single-contact-info">
                                 <i className="bx bx-phone-call"></i>
                                 <h3>Call Us:</h3>
-                                <p>Tel. + <a href="tel:12318005678990">(+92) 304-6970271</a></p>
-                                <p>Tel. + <a href="tel:12415235679874">(+92) 305-9158010</a></p>
+                                <p>Tel. + <a href="tel:+923046970271">(+92) 304-6970271</a></p>
+                                <p>Tel. + <a href="tel:+923059158010">(+92) 305-9158010</a></p>
                             </div>
                         </div>
                     </div>
