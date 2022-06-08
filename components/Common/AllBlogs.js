@@ -111,6 +111,15 @@ const blogsData = [
     description:
       "DigitizePK, is an exclusive network of the top remote developers for quick business assistance, business analyst, finance experts",
     href: "/blogs/digitize-pk-believe-in-assist-you"
+  },
+  {
+    imgSrc: "/images/blog-details/digitizepk-working-mechanism.jpg",
+    date: "8 Jun",
+    postedBy: "By Mubashar Shahzad (SEO Executive)",
+    heading: "DigitizePK Working Mechanism",
+    description:
+      "DigitizePk Work remotely to assist business at quick rate. We help business, finance, and technical fields. For this purpose,",
+    href: "/blogs/digitizepk-working-mechanism"
   }
 ];
 
