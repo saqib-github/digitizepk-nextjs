@@ -113,7 +113,7 @@ class TeamCard extends Component {
               </div>
             </div>
 
-            <div className="col-lg-3 col-sm-6">
+            {/* <div className="col-lg-3 col-sm-6">
               <div className="single-team active">
                 <div className="team-single-img">
                   <img src="/images/team/team3.png" alt="Image" />
@@ -159,9 +159,9 @@ class TeamCard extends Component {
                   </ul>
                 </div>
               </div>
-            </div>
+            </div> */}
 
-            <div className="col-lg-3 col-sm-6">
+            {/* <div className="col-lg-3 col-sm-6">
               <div className="single-team active">
                 <div className="team-single-img">
                   <img src="/images/team/team4.png" alt="Image" />
@@ -207,9 +207,9 @@ class TeamCard extends Component {
                   </ul>
                 </div>
               </div>
-            </div>
+            </div> */}
 
-            <div className="col-lg-3 col-sm-6">
+            {/* <div className="col-lg-3 col-sm-6">
               <div className="single-team active">
                 <div className="team-single-img">
                   <img src="/images/team/team5.png" alt="Image" />
@@ -255,9 +255,9 @@ class TeamCard extends Component {
                   </ul>
                 </div>
               </div>
-            </div>
+            </div> */}
 
-            <div className="col-lg-3 col-sm-6">
+            {/* <div className="col-lg-3 col-sm-6">
               <div className="single-team active">
                 <div className="team-single-img">
                   <img src="/images/team/team6.png" alt="Image" />
@@ -303,9 +303,9 @@ class TeamCard extends Component {
                   </ul>
                 </div>
               </div>
-            </div>
+            </div> */}
 
-            <div className="col-lg-3 col-sm-6">
+            {/* <div className="col-lg-3 col-sm-6">
               <div className="single-team active">
                 <div className="team-single-img">
                   <img src="/images/team/team7.png" alt="Image" />
@@ -351,9 +351,9 @@ class TeamCard extends Component {
                   </ul>
                 </div>
               </div>
-            </div>
+            </div> */}
 
-            <div className="col-lg-3 col-sm-6">
+            {/* <div className="col-lg-3 col-sm-6">
               <div className="single-team active">
                 <div className="team-single-img">
                   <img src="/images/team/team8.png" alt="Image" />
@@ -399,10 +399,10 @@ class TeamCard extends Component {
                   </ul>
                 </div>
               </div>
-            </div>
+            </div> */}
 
             {/* Pagination */}
-            <div className="col-lg-12">
+            {/* <div className="col-lg-12">
               <div className="page-navigation-area">
                 <nav aria-label="Page navigation example text-center">
                   <ul className="pagination">
@@ -442,7 +442,7 @@ class TeamCard extends Component {
                   </ul>
                 </nav>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </section>
