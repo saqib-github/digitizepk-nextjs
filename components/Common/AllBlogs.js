@@ -120,6 +120,15 @@ const blogsData = [
     description:
       "DigitizePk Work remotely to assist business at quick rate. We help business, finance, and technical fields. For this purpose,",
     href: "/blogs/digitizepk-working-mechanism"
+  },
+  {
+    imgSrc: "/images/blog-details/why-remote-business-assistance-1.jpg",
+    date: "24 Jun",
+    postedBy: "By Mubashar Shahzad (SEO Executive)",
+    heading: "Why business companies need remote assistance? 2022",
+    description:
+      "Remote assistance become essential part of business life today. After the destruction COVID-19. As, world faced a huge change.",
+    href: "/blogs/why-business-companies-need-remote-assistance"
   }
 ];
 

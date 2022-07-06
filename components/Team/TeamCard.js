@@ -24,37 +24,37 @@ class TeamCard extends Component {
 
                 <div className="team-content">
                   <h3>Saqib Javed</h3>
-                  <span>JavaScript Developer</span>
+                  <span>CEO and Founder</span>
 
                   <ul>
                     <li>
-                      <Link href="/team/#">
+                      <Link href="https://www.facebook.com/saqibjaved0786/">
                         <a target="_blank">
                           <i className="bx bxl-facebook" />
                         </a>
                       </Link>
                     </li>
                     <li>
-                      <Link href="/team/#">
+                      <Link href="https://github.com/saqib-github">
                         <a target="_blank">
-                          <i className="bx bxl-twitter" />
+                          <i className="bx bxl-github" />
                         </a>
                       </Link>
                     </li>
                     <li>
-                      <Link href="/team/#">
+                      <Link href="https://www.linkedin.com/in/saqib-javed-316511114">
                         <a target="_blank">
                           <i className="bx bxl-linkedin" />
                         </a>
                       </Link>
                     </li>
-                    <li>
+                    {/* <li>
                       <Link href="/team/#">
                         <a target="_blank">
-                          <i className="bx bxl-pinterest-alt" />
+                          <i className="bx bxl-website" />
                         </a>
                       </Link>
-                    </li>
+                    </li> */}
                   </ul>
                 </div>
               </div>
@@ -77,37 +77,90 @@ class TeamCard extends Component {
 
                 <div className="team-content">
                   <h3>Mubashar Shahzad</h3>
-                  <span>SEO Executive</span>
+                  <span>CEO</span>
 
                   <ul>
-                    <li>
-                      <Link href="/team/#">
+                    {/* <li>
+                      <Link href="https://web.facebook.com/profile.php?id=100080901503476">
                         <a target="_blank">
                           <i className="bx bxl-facebook" />
                         </a>
                       </Link>
-                    </li>
-                    <li>
+                    </li> */}
+                    {/* <li>
                       <Link href="/team/#">
                         <a target="_blank">
                           <i className="bx bxl-twitter" />
                         </a>
                       </Link>
-                    </li>
-                    <li>
-                      <Link href="/team/#">
+                    </li> */}
+                    {/* <li>
+                      <Link href="https://www.linkedin.com/in/mubashar-shahzad-32b796236">
                         <a target="_blank">
                           <i className="bx bxl-linkedin" />
                         </a>
                       </Link>
-                    </li>
-                    <li>
+                    </li> */}
+                    {/* <li>
                       <Link href="/team/#">
                         <a target="_blank">
                           <i className="bx bxl-pinterest-alt" />
                         </a>
                       </Link>
+                    </li> */}
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div className="col-lg-3 col-sm-6">
+              <div className="single-team active">
+                <div className="team-single-img">
+                  <img
+                    height="160px"
+                    width="150px"
+                    src="/images/team/jawad.jpeg"
+                    alt="Image"
+                  />
+
+                  <div className="team-img">
+                    <img src="/images/team/team-shape.png" alt="Image" />
+                  </div>
+                </div>
+
+                <div className="team-content">
+                  <h3>Mumshad Jawad</h3>
+                  <span>Flutter | Dart | PHP</span>
+
+                  <ul>
+                    {/* <li>
+                      <Link href="https://web.facebook.com/profile.php?id=100080901503476">
+                        <a target="_blank">
+                          <i className="bx bxl-facebook" />
+                        </a>
+                      </Link>
+                    </li> */}
+                    {/* <li>
+                      <Link href="/team/#">
+                        <a target="_blank">
+                          <i className="bx bxl-twitter" />
+                        </a>
+                      </Link>
+                    </li> */}
+                    <li>
+                      <Link href="https://www.linkedin.com/in/mumshad-jawad-465826221">
+                        <a target="_blank">
+                          <i className="bx bxl-linkedin" />
+                        </a>
+                      </Link>
                     </li>
+                    {/* <li>
+                      <Link href="/team/#">
+                        <a target="_blank">
+                          <i className="bx bxl-pinterest-alt" />
+                        </a>
+                      </Link>
+                    </li> */}
                   </ul>
                 </div>
               </div>
@@ -119,7 +172,12 @@ class TeamCard extends Component {
                   <img src="/images/team/team3.png" alt="Image" />
 
                   <div className="team-img">
-                    <img src="/images/team/team-shape.png" alt="Image" />
+                    <img
+                      height="160px"
+                      width="150px"
+                      src="/images/team/jawad.jpeg"
+                      alt="Image"
+                    />
                   </div>
                 </div>
 

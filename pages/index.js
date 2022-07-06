@@ -11,12 +11,13 @@ import WhyChooseUs from "../components/HomeOne/WhyChooseUs";
 import News from "../components/Common/News";
 import Footer from "../components/Layouts/Footer";
 import Head from 'next/head';
+import NotFoundPage from './404.js';
 
 const Index = () => {
   return (
     <>
      <Head>
-      <title>Best remote developers for quik business assistance</title>
+      {/* <title>Best remote developers for quik business assistance</title>
       <meta
           name="description"
           content="DigitizePK, is an exclusive network of the top remote developers, business analyst, web software designers, SEO experts, finance experts and project managers."
@@ -28,29 +29,29 @@ const Index = () => {
         <meta property="og:url" content="https://digitizepk.com" />
         <meta property="og:site_name" content="DigitizePK" />
         <meta property="twitter:card" content="summary_large_image" />
-        <meta property="twitter:site" content="@digitize_pk" />
+        <meta property="twitter:site" content="@digitize_pk" /> */}
       </Head>
       <Navbar />
-
-      <MainBanner />
+<NotFoundPage />
+      {/* <MainBanner /> */}
 
       {/* <Features /> */}
 
-      <MindSet />
+      {/* <MindSet /> */}
 
-      <FutureApproach />
+      {/* <FutureApproach /> */}
 
-      <HiringMechanism />
+      {/* <HiringMechanism /> */}
 
       {/* <FutureVision /> */}
 
-      <WhyChooseUs />
+      {/* <WhyChooseUs /> */}
 
       {/* <Testimonials /> */}
 
-      <News />
+      {/* <News /> */}
 
-      <Footer />
+      {/* <Footer /> */}
     </>
   );
 };

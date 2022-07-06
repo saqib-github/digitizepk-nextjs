@@ -12,7 +12,7 @@ class NewsGrid extends Component {
         return (
             <>
             <Head>
-            {/* <title>Best blogs  Remote developers for quick business assistance </title>
+            <title>Best blogs  Remote developers for quick business assistance </title>
           <meta
             name="description"
             content="Are you worried from  business  , finance  or technical problems ? Remote developers for quick business assistance blogs are not just  providing  guidance but also , help you to better understand  issues through  business , finance and technical experts. Begin your journey with us."
@@ -24,7 +24,7 @@ class NewsGrid extends Component {
         <meta property="og:url" content="https://digitizepk.com/blogs" />
         <meta property="og:site_name" content="DigitizePK Blogs" />
         <meta property="twitter:card" content="summary_large_image" />
-        <meta property="twitter:site" content="@digitize_pk" /> */}
+        <meta property="twitter:site" content="@digitize_pk" />
             </Head>
                 {/* <Navbar />
 

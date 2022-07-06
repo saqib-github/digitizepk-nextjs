@@ -43,7 +43,7 @@ const MyApp = ({ Component, pageProps }) => {
     <>
       {/* Global Site Tag (gtag.js) - Google Analytics */}
       <Head>
-                    <meta name="viewport" content="width=device-width, initial-scale=1" />
+                    {/* <meta name="viewport" content="width=device-width, initial-scale=1" />
                     <title>Best remote developers for quik business assistance</title>
                     <meta property="og:type" content="website" />
         <meta property="og:title" content="DigitizePK" />
@@ -52,7 +52,7 @@ const MyApp = ({ Component, pageProps }) => {
         <meta property="og:url" content="https://digitizepk.com" />
         <meta property="og:site_name" content="DigitizePK" />
         <meta property="twitter:card" content="summary_large_image" />
-        <meta property="twitter:site" content="@digitize_pk" />
+        <meta property="twitter:site" content="@digitize_pk" /> */}
                 </Head>
       <Script
         strategy="afterInteractive"

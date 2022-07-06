@@ -95,9 +95,9 @@ class Navbar extends Component {
                   </li>
 
                   <li className="nav-item">
-                    <Link href="/community">
+                    <Link href="/team">
                       <a className="nav-link">
-                        <strong style={{ fontSize: "16px" }}>Community </strong>
+                        <strong style={{ fontSize: "16px" }}>Team </strong>
                       </a>
                     </Link>
                   </li>
@@ -154,6 +154,45 @@ class Navbar extends Component {
                       </a>
                     </Link>
                   </li>
+                  {/* <li className="nav-item">
+                                        <Link href="/">
+                                            <a className="nav-link">
+                                                Home <i className='bx bx-chevron-down'></i>
+                                            </a>
+                                        </Link>
+
+                                        <ul className="dropdown-menu">
+                                            <li className="nav-item">
+                                                <Link href="/" activeClassName="active">
+                                                    <a className="nav-link">Home One</a>
+                                                </Link>
+                                            </li>
+
+                                            <li className="nav-item">
+                                                <Link href="/index-2" activeClassName="active">
+                                                    <a className="nav-link">Home Two</a>
+                                                </Link>
+                                            </li>
+
+                                            <li className="nav-item">
+                                                <Link href="/index-3" activeClassName="active">
+                                                    <a className="nav-link">Home Three</a>
+                                                </Link>
+                                            </li>
+
+                                            <li className="nav-item">
+                                                <Link href="/index-4" activeClassName="active">
+                                                    <a className="nav-link">Home Four</a>
+                                                </Link>
+                                            </li>
+                                            
+                                            <li className="nav-item">
+                                                <Link href="/index-5" activeClassName="active">
+                                                    <a className="nav-link">Home Five</a>
+                                                </Link>
+                                            </li>
+                                        </ul>
+                                    </li> */}
                 </ul>
               </div>
             </div>
