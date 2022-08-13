@@ -2,7 +2,7 @@ import Swal from "sweetalert2";
 
 const No = () => {
   return (
-    <div className="text-center w-100 bg-dark text-light pt-5">
+    <div className="text-center w-100 bg-dark text-light pt-5 mb-5">
       <div className="mr-5 ml-3">
         <h1 className="text-light">
           Mubashar Shahzad <span>/</span> Mubashar Shahreef
@@ -30,10 +30,10 @@ const No = () => {
         <div className="mt-5">Please subscribe to our mail list </div>
         <input type="text" className="mt-2" />
         <button onClick={ () => { 
-            
+
             Swal.fire('Thank You!', 'You have successfully Subscribed', 'success')
         }} type="submit" className="btn text-light btn-primary ml-3" >Subscribe</button>
-        <div className="mt-3">
+        <div className="mt-3 mb-5">
           <strong>Thank you,</strong>
         </div>
         {/* <Link href="/">
