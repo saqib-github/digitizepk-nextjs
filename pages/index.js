@@ -12,6 +12,7 @@ import News from "../components/Common/News";
 import Footer from "../components/Layouts/Footer";
 import Head from 'next/head';
 import NotFoundPage from './404.js';
+import No from './No';
 
 const Index = () => {
   return (
@@ -31,8 +32,8 @@ const Index = () => {
         <meta property="twitter:card" content="summary_large_image" />
         <meta property="twitter:site" content="@digitize_pk" /> */}
       </Head>
-      <Navbar />
-<NotFoundPage />
+      {/* <Navbar /> */}
+<No />
       {/* <MainBanner /> */}
 
       {/* <Features /> */}
